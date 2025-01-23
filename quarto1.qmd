@@ -17,7 +17,8 @@ When you click the **Render** button a document will be generated that includes 
 ```
 
 ```{r}
-
+ggplot(mydata, aes(x = x, y = y))+
+  geom_point(colour="deeppink")
 ```
 
 ![](https://media.giphy.com/media/EECy1Cp6nyV9e/giphy.gif?cid=82a1493bwxsft3sq309xaadqvjhkbrbuylegsunp5rbqws2q&ep=v1_gifs_trending&rid=giphy.gif&ct=g)
