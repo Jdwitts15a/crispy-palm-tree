@@ -17,6 +17,15 @@ When you click the **Render** button a document will be generated that includes 
 ```
 
 ```{r}
+# srisarya code :)
+srishti_data<-data.frame(x=1:10,
+                         y=1:10)
+
+ggplot(srishti_data, aes(x = x, y = y))+
+  geom_point(colour="darkcyan")+
+  theme_bw
+
+# jdwitts15a code :)
 ggplot(mydata, aes(x = x, y = y))+
   geom_point(colour="deeppink")
 ```
@@ -24,6 +33,8 @@ ggplot(mydata, aes(x = x, y = y))+
 ![](https://media.giphy.com/media/EECy1Cp6nyV9e/giphy.gif?cid=82a1493bwxsft3sq309xaadqvjhkbrbuylegsunp5rbqws2q&ep=v1_gifs_trending&rid=giphy.gif&ct=g)
 
 A picture of a silly bird.
+
+![cat coding! from srish :)](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDcxdHZkNGNxemxudGxwZzBhc3A3aW13bGxjcnF3NXM1emlodHd6ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ule4vhcY1xEKQ/giphy.gif)
 
 ```{r}
 
